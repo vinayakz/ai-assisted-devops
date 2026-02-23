@@ -1,5 +1,5 @@
 # Prompt Engineering for DevOps
-prompt engineering is the art of crafting instructions to get the most accurate and helpful responses from AI models.
+Prompt engineering is the art of crafting instructions to get the most accurate and helpful responses from AI models.
 
 ## Types of prompting
 ### 1. Zero-Shot Prompting 
