@@ -31,7 +31,7 @@ Response:
 The kubectl get pods command lists all the running and pending pods in the current kuberentes namespace. It provides information about the pod name, status, restart count, and age.
 ```
 
-2. Few-Shot prompting
+### 2. Few-Shot prompting
 
 In few-shot prompting, you provide the AI with a few examples to guide its response.
 
@@ -63,7 +63,7 @@ find /var/logs -type f -mtime +7 -exec rm {} \;
 echo "old logs deleted!"
 ```
 
-3. Multi-Shot Prompting
+### 3. Multi-Shot Prompting
 
 Multi-shot prompting is an extension of few-shot prompting where you provide multiple example and progressively refine the task.
 
@@ -91,7 +91,7 @@ Response:
 kubctl scale deployment nginx --replicas=5
 ```
 
-4. Chain of Thought (CoT) Prompting 
+### 4. Chain of Thought (CoT) Prompting 
 
 CoT prompting encourages th AI to "think step-by-step" to improve the accuracy of complex responses.
 
